@@ -200,18 +200,6 @@ O desenvolvimento do TechInclusiva demonstra que acessibilidade pode ser incorpo
 
 Uma das principais dificuldades é pensar nos elementos não apenas pela aparência visual, mas também pela forma como serão interpretados por tecnologias assistivas. O projeto mostra, na prática, a importância de uma estrutura semântica e de formulários corretamente associados.
 
-## 10. Publicação no GitHub
-
-Crie um repositório chamado, por exemplo:
-
-`techinclusiva-acessivel`
-
-Envie os arquivos:
-
-```text
-index.html
-style.css
-README.md
 TUTORIAL.md
 ```
 
