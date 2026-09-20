@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechInclusiva - Cursos Gratuitos de Tecnologia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo-principal">Ir para o conteúdo principal</a>
+
+  <header>
+    <div class="header-container">
+      <h1>TechInclusiva</h1>
+      <p>Capacitação digital para todos</p>
+    </div>
+
+    <nav aria-label="Navegação Principal">
+      <ul>
+        <li><a href="#sobre">Sobre o Projeto</a></li>
+        <li><a href="#cursos">Nossos Cursos</a></li>
+        <li><a href="#inscricao">Inscrição</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo-principal">
+    <section id="sobre" aria-labelledby="titulo-sobre">
+      <h2 id="titulo-sobre">Sobre o Projeto</h2>
+      <p>
+        O TechInclusiva é uma iniciativa voltada para o ensino gratuito de
+        programação, infraestrutura e acessibilidade digital para a comunidade.
+      </p>
+
+      <figure>
+        <img
+          src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80"
+          alt="Pessoas em uma sala de aula de tecnologia utilizando computadores em ambiente colaborativo."
+        >
+        <figcaption>Alunos participando de um workshop presencial de desenvolvimento web.</figcaption>
+      </figure>
+    </section>
+
+    <section id="cursos" aria-labelledby="titulo-cursos">
+      <h2 id="titulo-cursos">Cursos Oferecidos</h2>
+      <p>Confira a lista de treinamentos disponíveis no próximo ciclo:</p>
+      <ul>
+        <li><strong>HTML5 e CSS3 Semântico:</strong> Fundamentos da web moderna e estrutura acessível.</li>
+        <li><strong>Introdução ao Cloud &amp; Infraestrutura:</strong> Fundamentos de redes, servidores e nuvem.</li>
+        <li><strong>Design Inclusivo &amp; Acessibilidade Web:</strong> Práticas WCAG, ARIA e testes com leitores de tela.</li>
+      </ul>
+    </section>
+
+    <section id="inscricao" aria-labelledby="titulo-inscricao">
+      <h2 id="titulo-inscricao">Inscreva-se no Programa</h2>
+      <p>Preencha os campos abaixo para garantir sua vaga nos cursos gratuitos.</p>
+
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Dados Pessoais</legend>
+
+          <div class="form-group">
+            <label for="nome">Nome Completo <span aria-hidden="true">(obrigatório)</span>:</label>
+            <input type="text" id="nome" name="nome" required aria-required="true" autocomplete="name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail <span aria-hidden="true">(obrigatório)</span>:</label>
+            <input type="email" id="email" name="email" required aria-required="true" autocomplete="email">
+          </div>
+
+          <div class="form-group">
+            <label for="curso-interesse">Curso de Interesse:</label>
+            <select id="curso-interesse" name="curso-interesse" required aria-required="true">
+              <option value="">Selecione um curso...</option>
+              <option value="html-css">HTML5 e CSS3 Semântico</option>
+              <option value="cloud">Introdução ao Cloud &amp; Infraestrutura</option>
+              <option value="acessibilidade">Design Inclusivo &amp; Acessibilidade Web</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="mensagem">Necessidades de Acessibilidade ou Observações:</label>
+            <textarea id="mensagem" name="mensagem" rows="4"
+              placeholder="Ex.: Utilizo leitor de tela NVDA, preciso de intérprete de LIBRAS, etc."></textarea>
+          </div>
+
+          <button type="submit">Enviar Inscrição</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 TechInclusiva. Todos os direitos reservados.</p>
+    <p>
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        Acesse nosso GitHub (abre em nova aba)
+      </a>
+    </p>
+  </footer>
+</body>
+</html>
