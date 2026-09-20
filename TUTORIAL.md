@@ -199,8 +199,3 @@ Insira essas imagens no documento final da atividade.
 O desenvolvimento do TechInclusiva demonstra que acessibilidade pode ser incorporada desde a estrutura do HTML. O uso de elementos semânticos melhora a organização do documento, enquanto `alt`, labels, foco visível, skip link, contraste e navegação por teclado reduzem barreiras para diferentes usuários.
 
 Uma das principais dificuldades é pensar nos elementos não apenas pela aparência visual, mas também pela forma como serão interpretados por tecnologias assistivas. O projeto mostra, na prática, a importância de uma estrutura semântica e de formulários corretamente associados.
-
-TUTORIAL.md
-```
-
-Depois, substitua o link genérico do rodapé pelo endereço real do seu repositório.
