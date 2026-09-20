@@ -1,8 +1,8 @@
 # TechInclusiva — Acessibilidade Web e HTML Semântico
 
-Projeto acadêmico da atividade prática de Acessibilidade Web e HTML Semântico.
-Disciplina: Desenvolvimento para Internet I
-Docente: Profª. Mestre Adriana da Silva Belon
+-Projeto acadêmico da atividade prática de Acessibilidade Web e HTML Semântico.
+-Disciplina: Desenvolvimento para Internet I
+-Docente: Profª. Mestre Adriana da Silva Belon
 
 ## Arquivos
 
